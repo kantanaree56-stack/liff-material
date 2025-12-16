@@ -1,7 +1,7 @@
 const LIFF_ID = "2008660204-XY7J7BSx";
 
 window.onload = async () => {
-  await liff.init({ liffId: LIFF_ID });
+  await liff.init({ liffId: 2008660204-XY7J7BSx });
   if (!liff.isLoggedIn()) {
     liff.login();
     return;
@@ -24,5 +24,6 @@ function submitForm() {
     })
   })
 }
+
 
 
